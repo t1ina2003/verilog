@@ -1,0 +1,189 @@
+$date
+	Tue Jul 13 17:24:10 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_lpc $end
+$var wire 4 ! lpc_data [3:0] $end
+$var wire 1 " tx_data_valid $end
+$var wire 8 # tx_data [7:0] $end
+$var reg 1 $ clk $end
+$var reg 4 % data [3:0] $end
+$var reg 1 & lpc_frame $end
+$var reg 8 ' read_data [7:0] $end
+$var reg 1 ( rst_n $end
+$var reg 8 ) rx_data [7:0] $end
+$var reg 1 * rx_data_valid $end
+$var reg 1 + sel $end
+$var reg 1 , tx_busy $end
+$scope module lpc0 $end
+$var wire 1 $ lpc_clk $end
+$var wire 4 - lpc_data [3:0] $end
+$var wire 1 & lpc_frame $end
+$var wire 1 ( lpc_rst $end
+$var wire 8 . rx_data [7:0] $end
+$var wire 1 * rx_data_valid $end
+$var wire 1 , tx_busy $end
+$var reg 1 / lpc_data_out $end
+$var reg 4 0 out_data [3:0] $end
+$var reg 1 1 rd $end
+$var reg 2 2 rx_begin [1:0] $end
+$var reg 2 3 rx_end [1:0] $end
+$var reg 4 4 state [3:0] $end
+$var reg 1 5 status_port $end
+$var reg 8 6 tx_data [7:0] $end
+$var reg 1 " tx_data_valid $end
+$upscope $end
+$scope task lpc_read $end
+$var reg 16 7 port [15:0] $end
+$var reg 8 8 read_value [7:0] $end
+$upscope $end
+$scope task lpc_write $end
+$upscope $end
+$scope task tick $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 8
+bx 7
+b0 6
+05
+b0 4
+b0 3
+b0 2
+01
+b1111 0
+0/
+bx .
+b1111 -
+0,
+1+
+x*
+bx )
+1(
+bx '
+1&
+b1111 %
+0$
+b0 #
+z"
+b1111 !
+$end
+#1
+0"
+1$
+#2
+0(
+0$
+#3
+1$
+#4
+b0 !
+b0 -
+b0 %
+0&
+1(
+b1111111101 7
+0$
+#5
+b1 4
+1$
+#6
+1&
+0$
+#7
+b10 4
+11
+1$
+#8
+0$
+#9
+b11 4
+1$
+#10
+b11 !
+b11 -
+b11 %
+0$
+#11
+b100 4
+1$
+#12
+b1111 !
+b1111 -
+b1111 %
+0$
+#13
+b101 4
+1$
+#14
+b1101 !
+b1101 -
+b1101 %
+0$
+#15
+b1000 4
+15
+1$
+#16
+bz !
+bz -
+0+
+0$
+#17
+b1111 !
+b1111 -
+b1001 4
+1/
+1$
+#18
+0$
+#19
+b0 !
+b0 -
+b1010 4
+b0 0
+1$
+#20
+0$
+#21
+b1011 4
+1$
+#22
+bx0000 8
+0$
+#23
+b110 !
+b110 -
+b1100 4
+b110 0
+1$
+#24
+bx1xx !
+bx1xx -
+1+
+b1100000 8
+0$
+#25
+b1101 !
+b1101 -
+b0 4
+0/
+1$
+#26
+b1100000 '
+0$
+#27
+1$
+#28
+0$
+#29
+1$
+#30
+0$

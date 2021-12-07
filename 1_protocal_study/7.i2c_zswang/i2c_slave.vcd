@@ -1,0 +1,125 @@
+$date
+	Mon Aug 02 10:47:55 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ms
+$end
+$scope module tb $end
+$var wire 1 ! sda $end
+$var reg 1 " scl $end
+$var reg 1 # sda_data $end
+$var reg 1 $ sda_en $end
+$scope module i2cs0 $end
+$var wire 1 " SCL $end
+$var wire 1 ! SDA $end
+$var reg 1 % ack $end
+$var reg 7 & addr_diff [6:0] $end
+$var reg 1 ' nack $end
+$var reg 1 ( rw $end
+$var reg 1 ) sda_data $end
+$var reg 1 * sda_en $end
+$var reg 1 + start $end
+$var reg 4 , state [3:0] $end
+$var reg 1 - stop $end
+$upscope $end
+$scope task tick $end
+$upscope $end
+$scope task tick2 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1-
+b1000 ,
+0+
+0*
+0)
+0(
+0'
+b0 &
+0%
+1$
+1#
+1"
+1!
+$end
+#1000
+0-
+1+
+0!
+0#
+#2000
+b111 ,
+0"
+#3000
+1"
+#4000
+b110 ,
+1!
+0"
+1#
+#5000
+1"
+#6000
+b101 ,
+0!
+0"
+0#
+#7000
+1"
+#8000
+b100 ,
+0"
+#9000
+1"
+#10000
+b11 ,
+1!
+0"
+1#
+#11000
+1"
+#12000
+b10 ,
+0"
+#13000
+1"
+#14000
+b1 ,
+0"
+#15000
+1"
+#16000
+b0 ,
+0"
+#17000
+1(
+1%
+1"
+#18000
+b1000 ,
+1*
+0!
+0"
+0#
+0$
+#19000
+1"
+#20000
+0*
+0%
+b111 ,
+0"
+1$
+#21000
+1"
+#23000
+0+
+1-
+1!
+1#
+#30000

@@ -1,0 +1,288 @@
+
+/tmp# 
+/tmp# 
+/tmp# ./show_gpio.sh
+============== 0xf0010000 0
+dio:0x00020102  0x00000008  pud:0xff03fdfb  0x00fc0000  ioe:0x0002010e  0xc0cc02c1  evten:0x00020006  0x00020006  evbep:0x00020006  0x00000000 
+gpio   0 dout:0 pull-up   push-pull  level low     ------ 
+gpio   1 din :1 pull-up   push-pull  edge  both    irqen  
+gpio   2 din :0 nopull    open-drain edge  both    irqen  
+gpio   3 din :0 pull-up   push-pull  level low     ------ 
+gpio   4 xinout pull-up   push-pull  level low     ------ 
+gpio   5 xinout pull-up   push-pull  level low     ------ 
+gpio   6 dout:0 pull-up   open-drain level low     ------ 
+gpio   7 dout:0 pull-up   open-drain level low     ------ 
+gpio   8 din :1 pull-up   push-pull  level low     ------ 
+gpio   9 dout:0 nopull    push-pull  level low     ------ 
+gpio  10 xinout pull-up   push-pull  level low     ------ 
+gpio  11 xinout pull-up   push-pull  level low     ------ 
+gpio  12 xinout pull-up   push-pull  level low     ------ 
+gpio  13 xinout pull-up   push-pull  level low     ------ 
+gpio  14 xinout pull-up   push-pull  level low     ------ 
+gpio  15 xinout pull-up   push-pull  level low     ------ 
+gpio  16 xinout pull-up   push-pull  level low     ------ 
+gpio  17 din :1 pull-up   push-pull  edge  both    irqen  
+gpio  18 dout:0 pull-down open-drain level low     ------ 
+gpio  19 dout:0 pull-down open-drain level low     ------ 
+gpio  20 xinout pull-down push-pull  level low     ------ 
+gpio  21 xinout pull-down push-pull  level low     ------ 
+gpio  22 dout:0 pull-down open-drain level low     ------ 
+gpio  23 dout:0 pull-down open-drain level low     ------ 
+gpio  24 xinout pull-up   push-pull  level low     ------ 
+gpio  25 xinout pull-up   push-pull  level low     ------ 
+gpio  26 xinout pull-up   push-pull  level low     ------ 
+gpio  27 xinout pull-up   push-pull  level low     ------ 
+gpio  28 xinout pull-up   push-pull  level low     ------ 
+gpio  29 xinout pull-up   push-pull  level low     ------ 
+gpio  30 dout:0 pull-up   open-drain level low     ------ 
+gpio  31 dout:0 pull-up   open-drain level low     ------ 
+============== 0xf0011000 32
+dio:0x04000000  0x40000000  pud:0xfefffe07  0x010001e0  ioe:0x06000000  0xf80001e1  evten:0x00000000  0x00000000  evbep:0x00000000  0x00000000 
+gpio  32 dout:0 pull-up   push-pull  level low     ------ 
+gpio  33 xinout pull-up   push-pull  level low     ------ 
+gpio  34 xinout pull-up   push-pull  level low     ------ 
+gpio  35 xinout nopull    push-pull  level low     ------ 
+gpio  36 xinout nopull    push-pull  level low     ------ 
+gpio  37 dout:0 pull-down open-drain level low     ------ 
+gpio  38 dout:0 pull-down open-drain level low     ------ 
+gpio  39 dout:0 pull-down open-drain level low     ------ 
+gpio  40 dout:0 pull-down open-drain level low     ------ 
+gpio  41 xinout pull-up   push-pull  level low     ------ 
+gpio  42 xinout pull-up   push-pull  level low     ------ 
+gpio  43 xinout pull-up   push-pull  level low     ------ 
+gpio  44 xinout pull-up   push-pull  level low     ------ 
+gpio  45 xinout pull-up   push-pull  level low     ------ 
+gpio  46 xinout pull-up   push-pull  level low     ------ 
+gpio  47 xinout pull-up   push-pull  level low     ------ 
+gpio  48 xinout pull-up   push-pull  level low     ------ 
+gpio  49 xinout pull-up   push-pull  level low     ------ 
+gpio  50 xinout pull-up   push-pull  level low     ------ 
+gpio  51 xinout pull-up   push-pull  level low     ------ 
+gpio  52 xinout pull-up   push-pull  level low     ------ 
+gpio  53 xinout pull-up   push-pull  level low     ------ 
+gpio  54 xinout pull-up   push-pull  level low     ------ 
+gpio  55 xinout pull-up   push-pull  level low     ------ 
+gpio  56 xinout pull-down push-pull  level low     ------ 
+gpio  57 din :0 pull-up   push-pull  level low     ------   r1md group r1md
+gpio  58 din :1 pull-up   push-pull  level low     ------   r1md group r1md
+gpio  59 dout:0 pull-up   open-drain level low     ------ 
+gpio  60 dout:0 pull-up   open-drain level low     ------ 
+gpio  61 dout:0 pull-up   push-pull  level low     ------ 
+gpio  62 dout:1 pull-up   push-pull  level low     ------ 
+gpio  63 dout:0 pull-up   open-drain level low     ------ 
+============== 0xf0012000 64
+dio:0x00001400  0x00000000  pud:0x780fffff  0x07f00000  ioe:0x00001420  0x1c0febdf  evten:0x00000020  0x00000020  evbep:0x00000000  0x00000020 
+gpio  64 dout:0 pull-up   open-drain level low     ------   fanin0 group fanin0
+gpio  65 dout:0 pull-up   open-drain level low     ------   fanin1 group fanin1
+gpio  66 dout:0 pull-up   open-drain level low     ------   fanin2 group fanin2
+gpio  67 dout:0 pull-up   open-drain level low     ------   fanin3 group fanin3
+gpio  68 dout:0 pull-up   open-drain level low     ------   fanin4 group fanin4
+gpio  69 din :0 pull-up   push-pull  edge  falling irqen    fanin5 group fanin5
+gpio  70 dout:0 pull-up   open-drain level low     ------   fanin6 group fanin6
+gpio  71 dout:0 pull-up   open-drain level low     ------   fanin7 group fanin7
+gpio  72 dout:0 pull-up   open-drain level low     ------   fanin8 group fanin8
+gpio  73 dout:0 pull-up   open-drain level low     ------   fanin9 group fanin9
+gpio  74 din :1 pull-up   push-pull  level low     ------   fanin10 group fanin10
+gpio  75 dout:0 pull-up   open-drain level low     ------   fanin11 group fanin11
+gpio  76 din :1 pull-up   push-pull  level low     ------   fanin12 group fanin12
+gpio  77 dout:0 pull-up   open-drain level low     ------   fanin13 group fanin13
+gpio  78 dout:0 pull-up   open-drain level low     ------   fanin14 group fanin14
+gpio  79 dout:0 pull-up   open-drain level low     ------   fanin15 group fanin15
+gpio  80 dout:0 pull-up   open-drain level low     ------   pwm0 group pwm0
+gpio  81 dout:0 pull-up   open-drain level low     ------   pwm1 group pwm1
+gpio  82 dout:0 pull-up   open-drain level low     ------   pwm2 group pwm2
+gpio  83 dout:0 pull-up   open-drain level low     ------   pwm3 group pwm3
+gpio  84 xinout pull-down push-pull  level low     ------   r2 group r2
+gpio  85 xinout pull-down push-pull  level low     ------   r2 group r2
+gpio  86 xinout pull-down push-pull  level low     ------   r2 group r2
+gpio  87 xinout pull-down push-pull  level low     ------   r2 group r2
+gpio  88 xinout pull-down push-pull  level low     ------   r2 group r2
+gpio  89 xinout pull-down push-pull  level low     ------   r2 group r2
+gpio  90 dout:0 pull-down open-drain level low     ------ 
+gpio  91 dout:0 pull-up   open-drain level low     ------   r2md group r2md
+gpio  92 dout:0 pull-up   open-drain level low     ------   r2md group r2md
+gpio  93 xinout pull-up   push-pull  level low     ------ 
+gpio  94 xinout pull-up   push-pull  level low     ------ 
+gpio  95 xinout nopull    push-pull  level low     ------ 
+============== 0xf0013000 96
+dio:0x00000000  0x00000000  pud:0x00fc0000  0xff000000  ioe:0x00000000  0x03000000  evten:0x00000000  0x00000000  evbep:0x00000000  0x00000000 
+gpio  96 xinout nopull    push-pull  level low     ------   rg1 group rg1
+gpio  97 xinout nopull    push-pull  level low     ------   rg1 group rg1
+gpio  98 xinout nopull    push-pull  level low     ------   rg1 group rg1
+gpio  99 xinout nopull    push-pull  level low     ------   rg1 group rg1
+gpio 100 xinout nopull    push-pull  level low     ------   rg1 group rg1
+gpio 101 xinout nopull    push-pull  level low     ------   rg1 group rg1
+gpio 102 xinout nopull    push-pull  level low     ------   rg1 group rg1
+gpio 103 xinout nopull    push-pull  level low     ------   rg1 group rg1
+gpio 104 xinout nopull    push-pull  level low     ------   rg1 group rg1
+gpio 105 xinout nopull    push-pull  level low     ------   rg1 group rg1
+gpio 106 xinout nopull    push-pull  level low     ------   rg1 group rg1
+gpio 107 xinout nopull    push-pull  level low     ------   rg1 group rg1
+gpio 108 xinout nopull    push-pull  level low     ------   rg1mdio group rg1mdio
+gpio 109 xinout nopull    push-pull  level low     ------   rg1mdio group rg1mdio
+gpio 110 xinout nopull    push-pull  level low     ------ 
+gpio 111 xinout nopull    push-pull  level low     ------ 
+gpio 112 xinout nopull    push-pull  level low     ------ 
+gpio 113 xinout nopull    push-pull  level low     ------ 
+gpio 114 xinout pull-up   push-pull  level low     ------ 
+gpio 115 xinout pull-up   push-pull  level low     ------ 
+gpio 116 xinout pull-up   push-pull  level low     ------ 
+gpio 117 xinout pull-up   push-pull  level low     ------ 
+gpio 118 xinout pull-up   push-pull  level low     ------ 
+gpio 119 xinout pull-up   push-pull  level low     ------ 
+gpio 120 dout:0 pull-down open-drain level low     ------ 
+gpio 121 dout:0 pull-down open-drain level low     ------ 
+gpio 122 xinout pull-down push-pull  level low     ------ 
+gpio 123 xinout pull-down push-pull  level low     ------ 
+gpio 124 xinout pull-down push-pull  level low     ------ 
+gpio 125 xinout pull-down push-pull  level low     ------ 
+gpio 126 xinout pull-down push-pull  level low     ------ 
+gpio 127 xinout pull-down push-pull  level low     ------ 
+============== 0xf0014000 128
+dio:0x00000000  0x0a000000  pud:0xffffffff  0x00000000  ioe:0x00008000  0x0a0f7f00  evten:0x00008000  0x00008000  evbep:0x00008000  0x00000000 
+gpio 128 xinout pull-up   push-pull  level low     ------ 
+gpio 129 xinout pull-up   push-pull  level low     ------ 
+gpio 130 xinout pull-up   push-pull  level low     ------ 
+gpio 131 xinout pull-up   push-pull  level low     ------ 
+gpio 132 xinout pull-up   push-pull  level low     ------ 
+gpio 133 xinout pull-up   push-pull  level low     ------ 
+gpio 134 xinout pull-up   push-pull  level low     ------ 
+gpio 135 xinout pull-up   push-pull  level low     ------ 
+gpio 136 dout:0 pull-up   open-drain level low     ------ 
+gpio 137 dout:0 pull-up   open-drain level low     ------ 
+gpio 138 dout:0 pull-up   open-drain level low     ------ 
+gpio 139 dout:0 pull-up   open-drain level low     ------ 
+gpio 140 dout:0 pull-up   open-drain level low     ------ 
+gpio 141 dout:0 pull-up   open-drain level low     ------ 
+gpio 142 dout:0 pull-up   open-drain level low     ------ 
+gpio 143 din :0 pull-up   push-pull  edge  both    irqen  
+gpio 144 dout:0 pull-up   open-drain level low     ------   pwm4 group pwm4
+gpio 145 dout:0 pull-up   open-drain level low     ------   pwm5 group pwm5
+gpio 146 dout:0 pull-up   open-drain level low     ------   pwm6 group pwm6
+gpio 147 dout:0 pull-up   open-drain level low     ------   pwm7 group pwm7
+gpio 148 xinout pull-up   push-pull  level low     ------   mmc8 group mmc8
+gpio 149 xinout pull-up   push-pull  level low     ------   mmc8 group mmc8
+gpio 150 xinout pull-up   push-pull  level low     ------   mmc8 group mmc8
+gpio 151 xinout pull-up   push-pull  level low     ------   mmc8 group mmc8
+gpio 152 xinout pull-up   push-pull  level low     ------   mmc group mmc
+gpio 153 dout:1 pull-up   push-pull  level low     ------ 
+gpio 154 xinout pull-up   push-pull  level low     ------   mmc group mmc
+gpio 155 dout:1 pull-up   push-pull  level low     ------ 
+gpio 156 xinout pull-up   push-pull  level low     ------   mmc group mmc
+gpio 157 xinout pull-up   push-pull  level low     ------   mmc group mmc
+gpio 158 xinout pull-up   push-pull  level low     ------   mmc group mmc
+gpio 159 xinout pull-up   push-pull  level low     ------   mmc group mmc
+============== 0xf0015000 160
+dio:0x00000600  0x80000000  pud:0xbf83fe01  0x007c0000  ioe:0x08000601  0xc0000004  evten:0x00000200  0x00000200  evbep:0x00000200  0x00000000 
+gpio 160 din :0 pull-up   push-pull  level low     ------ 
+gpio 161 xinout nopull    push-pull  level low     ------ 
+gpio 162 dout:0 nopull    open-drain level low     ------   serirq group serirq
+gpio 163 xinout nopull    push-pull  level low     ------ 
+gpio 164 xinout nopull    push-pull  level low     ------ 
+gpio 165 xinout nopull    push-pull  level low     ------ 
+gpio 166 xinout nopull    push-pull  level low     ------ 
+gpio 167 xinout nopull    push-pull  level low     ------ 
+gpio 168 xinout nopull    push-pull  level low     ------ 
+gpio 169 din :1 pull-up   push-pull  edge  both    irqen  
+gpio 170 din :1 pull-up   push-pull  level low     ------ 
+gpio 171 xinout pull-up   push-pull  level low     ------ 
+gpio 172 xinout pull-up   push-pull  level low     ------ 
+gpio 173 xinout pull-up   push-pull  level low     ------ 
+gpio 174 xinout pull-up   push-pull  level low     ------ 
+gpio 175 xinout pull-up   push-pull  level low     ------   pspi1 group pspi1
+gpio 176 xinout pull-up   push-pull  level low     ------   pspi1 group pspi1
+gpio 177 xinout pull-up   push-pull  level low     ------   pspi1 group pspi1
+gpio 178 xinout pull-down push-pull  level low     ------   r1 group r1
+gpio 179 xinout pull-down push-pull  level low     ------   r1 group r1
+gpio 180 xinout pull-down push-pull  level low     ------   r1 group r1
+gpio 181 xinout pull-down push-pull  level low     ------   r1 group r1
+gpio 182 xinout pull-down push-pull  level low     ------   r1 group r1
+gpio 183 xinout pull-up   push-pull  level low     ------   spi3 group spi3
+gpio 184 xinout pull-up   push-pull  level low     ------   spi3 group spi3
+gpio 185 xinout pull-up   push-pull  level low     ------   spi3 group spi3
+gpio 186 xinout pull-up   push-pull  level low     ------   spi3 group spi3
+gpio 187 din :0 pull-up   push-pull  level low     ------ 
+gpio 188 xinout pull-up   push-pull  level low     ------ 
+gpio 189 xinout pull-up   push-pull  level low     ------ 
+gpio 190 dout:0 nopull    push-pull  level low     ------ 
+gpio 191 dout:1 pull-up   open-drain level low     ------ 
+============== 0xf0016000 192
+dio:0x08000000  0x00000801  pud:0xf800f801  0x000007fe  ioe:0x0c000000  0x0000f821  evten:0x00000000  0x00000000  evbep:0x00000000  0x00000000 
+gpio 192 dout:1 pull-up   open-drain level low     ------ 
+gpio 193 xinout pull-down push-pull  level low     ------   r1 group r1
+gpio 194 xinout pull-down push-pull  level low     ------ 
+gpio 195 xinout pull-down push-pull  level low     ------ 
+gpio 196 xinout pull-down push-pull  level low     ------ 
+gpio 197 dout:0 pull-down open-drain level low     ------ 
+gpio 198 xinout pull-down push-pull  level low     ------ 
+gpio 199 xinout pull-down push-pull  level low     ------ 
+gpio 200 xinout pull-down push-pull  level low     ------   r2 group r2
+gpio 201 xinout pull-down push-pull  level low     ------   r1 group r1
+gpio 202 xinout pull-down push-pull  level low     ------ 
+gpio 203 dout:1 pull-up   push-pull  level low     ------ 
+gpio 204 dout:0 pull-up   open-drain level low     ------ 
+gpio 205 dout:0 pull-up   open-drain level low     ------ 
+gpio 206 dout:0 pull-up   open-drain level low     ------ 
+gpio 207 dout:0 pull-up   open-drain level low     ------ 
+gpio 208 xinout nopull    push-pull  level low     ------ 
+gpio 209 xinout nopull    push-pull  level low     ------ 
+gpio 210 xinout nopull    push-pull  level low     ------ 
+gpio 211 xinout nopull    push-pull  level low     ------ 
+gpio 212 xinout nopull    push-pull  level low     ------ 
+gpio 213 xinout nopull    push-pull  level low     ------ 
+gpio 214 xinout nopull    push-pull  level low     ------ 
+gpio 215 xinout nopull    push-pull  level low     ------ 
+gpio 216 xinout nopull    push-pull  level low     ------ 
+gpio 217 xinout nopull    push-pull  level low     ------ 
+gpio 218 din :0 nopull    open-drain level low     ------ 
+gpio 219 din :1 pull-up   push-pull  level low     ------ 
+gpio 220 xinout pull-up   push-pull  level low     ------ 
+gpio 221 xinout pull-up   push-pull  level low     ------ 
+gpio 222 xinout pull-up   push-pull  level low     ------ 
+gpio 223 xinout pull-up   push-pull  level low     ------ 
+============== 0xf0017000 224
+dio:0x00000080  0x00000000  pud:0x0000007f  0x00000000  ioe:0x00000080  0x80000010  evten:0x00000000  0x00000000  evbep:0x00000000  0x00000000 
+gpio 224 xinout pull-up   push-pull  level low     ------ 
+gpio 225 xinout pull-up   push-pull  level low     ------ 
+gpio 226 xinout pull-up   push-pull  level low     ------ 
+gpio 227 xinout pull-up   push-pull  level low     ------ 
+gpio 228 dout:0 pull-up   open-drain level low     ------ 
+gpio 229 xinout pull-up   push-pull  level low     ------ 
+gpio 230 xinout pull-up   push-pull  level low     ------ 
+gpio 231 din :1 nopull    push-pull  level low     ------ 
+gpio 232 xinout nopull    push-pull  level low     ------ 
+gpio 233 xinout nopull    push-pull  level low     ------ 
+gpio 234 xinout nopull    push-pull  level low     ------ 
+gpio 235 xinout nopull    push-pull  level low     ------ 
+gpio 236 xinout nopull    push-pull  level low     ------ 
+gpio 237 xinout nopull    push-pull  level low     ------ 
+gpio 238 xinout nopull    push-pull  level low     ------ 
+gpio 239 xinout nopull    push-pull  level low     ------ 
+gpio 240 xinout nopull    push-pull  level low     ------ 
+gpio 241 xinout nopull    push-pull  level low     ------ 
+gpio 242 xinout nopull    push-pull  level low     ------ 
+gpio 243 xinout nopull    push-pull  level low     ------ 
+gpio 244 xinout nopull    push-pull  level low     ------ 
+gpio 245 xinout nopull    push-pull  level low     ------ 
+gpio 246 xinout nopull    push-pull  level low     ------ 
+gpio 247 xinout nopull    push-pull  level low     ------ 
+gpio 248 xinout nopull    push-pull  level low     ------ 
+gpio 249 xinout nopull    push-pull  level low     ------ 
+gpio 250 xinout nopull    push-pull  level low     ------ 
+gpio 251 xinout nopull    push-pull  level low     ------ 
+gpio 252 xinout nopull    push-pull  level low     ------ 
+gpio 253 xinout nopull    push-pull  level low     ------ 
+gpio 254 xinout nopull    push-pull  level low     ------ 
+gpio 255 dout:0 nopull    open-drain level low     ------ 
+/tmp# ./show_gpio.sh/tmp# show_gpio.sh/tmp# chmod +777 show_gpio.sh /tmp# show_gpio.sh/tmp# lstftp -g -r show_gpio.sh 169.254.0.4/tmp# cd /tmptftp -g -r show_gpio.sh 169.254.0.4/tmp# CpldAccess2 -r -a f8000000 -r -a f8000000 2 -r -a f8000000
+
++             0  1  2  3  4  5  6  7 :  8  9  A  B  C  D  E  F
+--------------------------------------------------------------
+0xf8000000 = 02 15 65 01 22 00 00 00 : 00 00 00 c0 00 09 e3 d4 
+0xf8000010 = 60 04 c0 00 60 fe 8b a5 : 8f ff 8f 40 0f 00 00 1f 
+0xf8000020 = ff 0c 00 00 00 ff 00 a0 : ff 09 7f 00 00 00 00 00 
+0xf8000030 = 00 41 00 00 00 00 00 00 : 00 0f 00 00 02 00 00 00 
+
+ CpldAccess OK ! 
+
+/tmp# 
